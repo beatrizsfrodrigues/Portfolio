@@ -1,0 +1,39 @@
+/** color palette  */
+:root {
+  --pink: #e9adca;
+  --light-pink: #fbeff5;
+  --dark-pink: #d86ea1;
+
+  --purple: #4f3466;
+  --light-purple: #7d53a2;
+  --dark-purple: #2a1c36;
+
+  --grey: #bab8d3;
+  --light-grey: #f3f2f7;
+  --dark-grey: #918eb8;
+
+  --green: #c0c673;
+  --light-green: #dfe1b7;
+  --dark-green: #a7ae47;
+  --lighter-green: #f1f2ce;
+}
+
+/** semantic color variables for this project */
+
+:root {
+  --color-background: var(--pink);
+  --color-background-card: var(--light-grey);
+
+  --color-border: var(--purple);
+  --color-text: var(--purple);
+
+  --color-button: var(--light-green);
+  --color-button-active: var(--green);
+
+  --color-shadow: var(--dark-pink);
+
+  --color-background-project: #000000;
+  --color-backgroundCard-project: #000000;
+  --color-shadow-project: #000000;
+  --color-borderText-project: #000000;
+}

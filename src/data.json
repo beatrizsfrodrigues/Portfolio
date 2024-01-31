@@ -1,0 +1,124 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "name": "Evergreen",
+      "filter": [0, 1, 2],
+      "colors": [
+        "#FBF3F1",
+        "#E9674D",
+        "#62B273",
+        "#0D1E11",
+        "#EFC6CD",
+        "#E9A13B",
+        "#C2AFEA",
+        "#FDF9F9"
+      ],
+      "colorPage": {
+        "background": "#C2AFEA",
+        "backgroundCard": "#FBF3F1",
+        "shadow": "#62B273",
+        "borderText": "#0D1E11"
+      },
+      "info": "",
+      "photo": "https://2929749.fs1.hubspotusercontent-na1.net/hubfs/2929749/Imported_Blog_Media/website-design-2.png",
+      "video": "",
+      "poster": "",
+      "skills": []
+    },
+    {
+      "id": 1,
+      "name": "Training Wheels",
+      "filter": [0, 1, 2],
+      "colors": [],
+      "colorPage": {
+        "background": "",
+        "backgroundCard": "",
+        "shadow": "",
+        "borderText": ""
+      },
+      "info": "",
+      "photo": "",
+      "video": "",
+      "poster": "",
+      "skills": []
+    },
+    {
+      "id": 2,
+      "name": "Eco-Meow",
+      "filter": [0, 1, 2],
+      "colors": [],
+      "colorPage": {
+        "background": "",
+        "backgroundCard": "",
+        "shadow": "",
+        "borderText": ""
+      },
+      "info": "",
+      "photo": "",
+      "video": "",
+      "poster": "",
+      "skills": []
+    }
+  ],
+
+  "filter": [
+    {
+      "id": 0,
+      "name": "Website"
+    },
+    {
+      "id": 1,
+      "name": "UX/UI design"
+    },
+    {
+      "id": 2,
+      "name": "School project"
+    },
+    {
+      "id": 3,
+      "name": "Social media post"
+    },
+    {
+      "id": 4,
+      "name": "Logo"
+    },
+    {
+      "id": 5,
+      "name": "Game"
+    }
+  ],
+
+  "skills": [
+    {
+      "id": 0,
+      "name": "CSS",
+      "icon": ""
+    },
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "icon": ""
+    },
+    {
+      "id": 2,
+      "name": "Figma",
+      "icon": ""
+    },
+    {
+      "id": 3,
+      "name": "Photoshop",
+      "icon": ""
+    },
+    {
+      "id": 4,
+      "name": "Illustrator",
+      "icon": ""
+    },
+    {
+      "id": 5,
+      "name": "Vue",
+      "icon": ""
+    }
+  ]
+}
