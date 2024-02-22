@@ -3,8 +3,8 @@
     <div id="borderP">
       <div id="scrollP">
         <div id="card">
-          <h2>{{ this.project.name }}</h2>
-          <img :src="project.photo" alt="" />
+          <h2>{{ project.name }}</h2>
+          <img :src="project.photo" alt="" class="imgProject" />
           <p>{{ this.project }}</p>
         </div>
       </div>

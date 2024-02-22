@@ -4,11 +4,9 @@
       <div v-for="project in this.projects">
         <div class="card">
           <div class="topCard">
-            <img
-              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
-              alt=""
-              class="cardImg"
-            />
+            <div class="imgBorder">
+              <img :src="project.photo" alt="" class="cardImg" />
+            </div>
             <div>
               <h3>{{ project.name }}</h3>
               <ul>

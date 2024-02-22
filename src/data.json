@@ -21,44 +21,56 @@
         "borderText": "#0D1E11"
       },
       "info": "",
-      "photo": "https://2929749.fs1.hubspotusercontent-na1.net/hubfs/2929749/Imported_Blog_Media/website-design-2.png",
+      "photo": "src/assets/images/evergreen.png",
       "video": "",
       "poster": "",
-      "skills": []
+      "skills": [],
+      "github": "",
+      "figma": ""
     },
     {
       "id": 1,
       "name": "Training Wheels",
       "filter": [0, 1, 2],
-      "colors": [],
+      "colors": [
+        "#DD5E5C",
+        "#56C4C0",
+        "#FAF5AC",
+        "#4A8BAF",
+        "#2D2F44",
+        "#FEFCFC"
+      ],
       "colorPage": {
-        "background": "",
-        "backgroundCard": "",
-        "shadow": "",
-        "borderText": ""
+        "background": "#4A8BAF",
+        "backgroundCard": "#FEFCFC",
+        "shadow": "#DD5E5C",
+        "borderText": "#2D2F44"
       },
       "info": "",
-      "photo": "",
+      "photo": "src/assets/images/trainingwheels.png",
       "video": "",
       "poster": "",
-      "skills": []
+      "skills": [],
+      "github": "",
+      "figma": ""
     },
     {
       "id": 2,
       "name": "Eco-Meow",
       "filter": [0, 1, 2],
-      "colors": [],
+      "colors": ["#C0D470", "#B18561", "#E8CFA6", "#4F3466"],
       "colorPage": {
-        "background": "",
-        "backgroundCard": "",
-        "shadow": "",
-        "borderText": ""
+        "background": "#C0D470",
+        "backgroundCard": "#E8CFA6",
+        "shadow": "#4F3466",
+        "borderText": "#B18561"
       },
       "info": "",
-      "photo": "",
+      "photo": "src/assets/images/ecomeow.png",
       "video": "",
       "poster": "",
-      "skills": []
+      "skills": [],
+      "github": ""
     }
   ],
 
