@@ -13,6 +13,8 @@ app.use(router);
 
 app.mount("#app");
 
+localStorage.clear();
+
 import { useProjectStore } from "@/stores/Project";
 
 const projectStore = useProjectStore();
@@ -22,7 +24,7 @@ let projects = json.projects;
 let project = projectStore.getProjects;
 projects.forEach((prj) => {
   if (project.find((p) => p.id == prj.id)) {
-    console.log("project has already been added");
+    console.log("project added");
   } else {
     projectStore.addProject(prj);
   }

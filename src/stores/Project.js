@@ -9,6 +9,17 @@ export const useProjectStore = defineStore("project", {
     getProjects() {
       return this.projects;
     },
+
+    getProjectsImages() {
+      let projects = this.projects;
+      let images = [];
+
+      projects.forEach((project) => {
+        images.push(project.photo);
+      });
+
+      return images;
+    },
   },
   actions: {
     addProject(project) {

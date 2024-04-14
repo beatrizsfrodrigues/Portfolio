@@ -46,8 +46,9 @@
 
     <div id="right">
       <h2 id="titleRight">GET TO KNOW ME AND MY WORK!</h2>
-      <div class="scroll">
-        <div>
+
+      <div class="scroll" style="--t: 20s">
+        <div class="m-scroll">
           <span
             ><img
               src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
@@ -69,54 +70,6 @@
               class="slideImgs"
           /></span>
         </div>
-        <div>
-          <span
-            ><img
-              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
-              class="slideImgs"
-          /></span>
-          <span
-            ><img
-              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
-              class="slideImgs"
-          /></span>
-          <span
-            ><img
-              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
-              class="slideImgs"
-          /></span>
-          <span
-            ><img
-              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
-              class="slideImgs"
-          /></span>
-        </div>
-      </div>
-      <div class="scroll">
-        <div class="m-scroll m-scroll2">
-          <span
-            ><img
-              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
-              class="slideImgs"
-          /></span>
-          <span
-            ><img
-              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
-              class="slideImgs"
-          /></span>
-          <span
-            ><img
-              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
-              class="slideImgs"
-          /></span>
-          <span
-            ><img
-              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
-              class="slideImgs"
-          /></span>
-        </div>
-      </div>
-      <div class="scroll">
         <div class="m-scroll">
           <span
             ><img
@@ -140,6 +93,7 @@
           /></span>
         </div>
       </div>
+
       <div id="divExplore">
         <h2 id="explore">EXPLORE</h2>
 
