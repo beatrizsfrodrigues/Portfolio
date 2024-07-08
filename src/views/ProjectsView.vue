@@ -9,9 +9,11 @@
             </div>
             <div>
               <h3>{{ project.name }}</h3>
-              <ul>
-                <li>{{ project.filter }}</li>
-              </ul>
+              <div v-for="filter in this.filters">
+                <ul v-for="f in project.filter">
+                  <li v-if="f == filter.id">{{ filter.name }}</li>
+                </ul>
+              </div>
             </div>
           </div>
           <router-link
@@ -31,16 +33,19 @@
 
 <script>
 import { useProjectStore } from "@/stores/Project";
+import { useFilterStore } from "@/stores/FIlter";
 export default {
   setup() {
     const projectStore = useProjectStore();
+    const filterStore = useFilterStore();
 
-    return { projectStore };
+    return { projectStore, filterStore };
   },
 
   data() {
     return {
       projects: [],
+      filters: [],
     };
   },
 
@@ -49,7 +54,9 @@ export default {
       this.projects = this.projectStore.getProjects;
     }
 
-    let r = document.querySelector(":root");
+    if (this.filters == undefined || this.filters == "") {
+      this.filters = this.filterStore.getFilters;
+    }
   },
 };
 </script>

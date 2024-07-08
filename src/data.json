@@ -57,7 +57,7 @@
     {
       "id": 2,
       "name": "Eco-Meow",
-      "filter": [0, 1, 2],
+      "filter": [2, 5],
       "colors": ["#C0D470", "#B18561", "#E8CFA6", "#4F3466"],
       "colorPage": {
         "background": "#C0D470",
@@ -74,7 +74,7 @@
     }
   ],
 
-  "filter": [
+  "filters": [
     {
       "id": 0,
       "name": "Website"

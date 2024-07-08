@@ -16,10 +16,14 @@ app.mount("#app");
 localStorage.clear();
 
 import { useProjectStore } from "@/stores/Project";
+import { useFilterStore } from "@/stores/FIlter";
 
 const projectStore = useProjectStore();
+const filterStore = useFilterStore();
 
 let projects = json.projects;
+
+let filters = json.filters;
 
 let project = projectStore.getProjects;
 projects.forEach((prj) => {
@@ -27,5 +31,14 @@ projects.forEach((prj) => {
     console.log("project added");
   } else {
     projectStore.addProject(prj);
+  }
+});
+
+let filter = filterStore.getFilters;
+filters.forEach((fl) => {
+  if (filter.find((f) => f.id == fl.id)) {
+    console.log("filter added");
+  } else {
+    filterStore.addFilter(fl);
   }
 });
